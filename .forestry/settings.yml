@@ -4,14 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: PagesGen
 - type: directory
   path: docs
   label: Pages
   create: all
   match: "**/*"
 - type: directory
-  path: yester/docs
-  label: Sites
+  path: docs/ee
+  label: Eesti
   create: all
   match: "**/*"
 upload_dir: static/uploads
