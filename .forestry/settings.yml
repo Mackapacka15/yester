@@ -12,6 +12,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: docs/en
+  label: English
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/ee
   label: Eesti
   create: all
